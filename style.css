@@ -524,7 +524,7 @@ footer .contact address .ad i {
     padding-left: var(--tablet-padding);
     margin-bottom: var(--tablet-bottom-space);
   }
-  .intros .intro{
+  .intros .intro {
     flex-direction: column-reverse;
     gap: 42px;
     margin-top: 24px;
@@ -541,34 +541,33 @@ footer .contact address .ad i {
     justify-content: center;
     gap: 32px;
   }
-  .about-me img{
+  .about-me img {
     border-radius: 0;
     width: 300px;
     border-radius: 10%;
     height: 400px;
-    
+
     object-fit: cover;
   }
   .about-me .about .up {
     border-right: 1px var(--Secondary-color) solid;
-
   }
-  .portfolio{
+  .portfolio {
     padding-left: var(--tablet-padding);
     padding-right: var(--tablet-padding);
     margin-bottom: var(--tablet-bottom-space);
     gap: 0;
     padding-bottom: 64px;
   }
-  .portfolio .under{
+  .portfolio .under {
     flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
   }
-  .portfolio .under div{
+  .portfolio .under div {
     width: 35%;
   }
-  .course{
+  .course {
     padding-left: var(--tablet-padding);
     padding-right: var(--tablet-padding);
     margin-bottom: var(--tablet-bottom-space);
@@ -578,30 +577,32 @@ footer .contact address .ad i {
   }
   .course img {
     width: 500px;
-    height: 600px;  
+    height: 600px;
     border-radius: 7px;
   }
-  .course .right{
+  .course .right {
     width: 100%;
   }
 }
 @media screen and (max-width: 576px) {
-
   nav {
     padding-right: var(--mobile-padding);
-    gap: 48px;
+    gap: 24px;
     padding-left: var(--mobile-padding);
   }
-  nav ul li a{
+  nav ul {
+    gap: 16px;
+  }
+  nav ul li a {
     font-size: 12px;
   }
-  .intros{
+  .intros {
     padding-right: var(--mobile-padding);
     padding-left: var(--mobile-padding);
     margin-bottom: var(--mobile-bottom-space);
     gap: 84px;
   }
-  .intros .intro img{
+  .intros .intro img {
     width: 350px;
     height: 350px;
   }
@@ -612,29 +613,28 @@ footer .contact address .ad i {
   .intros .under-intro .inside {
     width: 100%;
   }
-  .about-me{
+  .about-me {
     padding-right: var(--mobile-padding);
     padding-left: var(--mobile-padding);
     margin-bottom: var(--mobile-bottom-space);
   }
-  .about-me .about .caption{
+  .about-me .about .caption {
     width: calc(100% - 8px);
     padding-left: 8px;
   }
-  .portfolio{
+  .portfolio {
     padding-right: var(--mobile-padding);
     padding-left: var(--mobile-padding);
     margin-bottom: var(--mobile-bottom-space);
   }
-  .course{
+  .course {
     padding-right: var(--mobile-padding);
     padding-left: var(--mobile-padding);
     margin-bottom: var(--mobile-bottom-space);
   }
   .course img {
     width: 100%;
-    height: auto;  
+    height: auto;
     border-radius: 7px;
   }
-
 }
