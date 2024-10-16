@@ -70,6 +70,7 @@ body {
   width: 42px;
   text-decoration: none;
   color: var(--main-color);
+  background-color: var(--Natural-Color);
   position: sticky;
   top: 90%;
   z-index: 111111111;
@@ -82,7 +83,8 @@ body {
   font-size: 22px;
 }
 .scrol-top:hover {
-  background-color: var(--Primary-Color);
+  background-color: var(--Secondary-color);
+  color: var(--Natural-Color);
 }
 nav {
   display: flex;
@@ -501,6 +503,19 @@ footer .contact address .ad p {
 }
 footer .contact address .ad i {
   color: var(--Primary-Color);
+}
+.copyr{
+  width: 100%;
+  background-color: var(--Secondary-color);
+  color: var(--Natural-Color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.copyr p{
+  margin: 0;
+  padding: 8px 0;
 }
 
 @media screen and (max-width: 1200px) {
